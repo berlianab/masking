@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+header{
+    background-color: #000d34;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-family: 'Slackside One';
+    font-size: 50px;
+    text-shadow:0px 5px 4px rgba(0, 0, 0, 0.8) ; 
+}
+header h1{ 
+    color: white;
+   
+}
+
+h2{
+    color: black;
+}
+
+header img{
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px rgb(255, 255, 255);
+}
+
+main{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+p {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 250px;
+    margin-inline-end: 250px;
+    background-color: #000d34;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(0, 81, 180);
+}
+
+.center {
+    top: 150%;
+    left: 100%;
+    transform: translate(0%, 0%);
+    padding: 10px;
+  }
+h4{
+    font-style: italic;
+}
+footer{
+    background-color: #000d34;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+}
+footer p{
+    margin: 0px;
+}
